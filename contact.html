@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta charet="UTF-8">
+        <title>Contact</title>
+        <style>
+             .details {
+                background-color:skyblue;
+                font-size: 24px;
+                padding : 10px;
+            
+            }
+            .form 
+            {
+                max-width: 400px;
+            	margin: 10px auto;
+            	padding: 16px;
+            	background: white;
+                
+            }         
+            .form h2 {
+                background: lightseagreen;
+	            padding: 20px 0;
+            	font-size: 140%;
+            	font-weight: 300;
+	            text-align: center;
+	            color: black;
+                padding-top: 24px;
+
+            }
+            .name
+             {
+                width: 100%;
+	            background: #fff;
+            	margin-bottom: 4%;
+            	border: 1px solid #ccc;
+            	padding: 3%;
+            	color: grey;
+            }
+            .pw {
+                width: 100%;
+            	background: #fff;
+            	margin-bottom: 4%;
+            	border: 1px solid #ccc;
+            	padding: 3%;
+            	color: #555;
+            }
+            .no{
+                width: 100%;
+            	background: #fff;
+            	margin-bottom: 4%;
+	            border: 1px solid #ccc;
+	            padding: 3%;
+	            color: #555;
+            }
+            .item {
+                width :100%;
+                background: lightseagreen;
+                padding: 3%;
+                margin-bottom: 4%;
+                color : black;
+                font-size: 20px;
+            }
+            .alp {
+                font-size: 18px;
+                font: Arial;
+            }
+
+        </style>
+    </head>
+    <body bgcolor="lightblue">
+        <form >  
+            <div class="details">
+
+                <a href="start.html"><span style="margin-left: 530px;">Home </span></a>
+                <a href="about.html"><span style="margin-left: 20px;">About</span></a>
+                <a href="contact.html"><span style="margin-left: 20px;">Contact </span></a>
+            </div>
+            <div class=form>          
+                 <h2 >Wanna come on my trip? <br>Contact Me</h2>
+                 <div class="alp">
+                 <lable for=fname> Full name:<br></lable>
+                <input class="name" type="text" name="Fullname" required maxlength="10" width="100%" placeholder="Your Fullname..."/>
+                 </div>
+                  <div class="alp">
+                <lable for=pw>Password:<br>
+                <input class="pw" type="password" name="password" required minlength ="6" maxlength="10" placeholder="Enter password"/>
+                 </div>
+                 <div class="alp">
+                Mobile Number:<br>
+                <input class="no" type="tel" name="number" required maxlength="10" placeholder="Your Mobile Number..." />
+                  </div>
+                 <div class="alp">
+                <br><input class="item" type="submit" value="Submit" />
+                 </div>
+            </div>
+        </form>
+   </body>
+ </html>
